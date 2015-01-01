@@ -16,6 +16,7 @@
     <!-- About phone screen, crDroid version -->
     <string name="mod_version">crDroid version</string>
     <string name="mod_version_default">Unknown</string>
+    <string name="model_name">Model Name</string>
 
     <!-- About phone screen, build date -->
     <string name="build_date">Build date</string>
@@ -315,23 +316,6 @@
     <string name="lockscreen_shorcuts_longpress_title">Verknüpfungen lange drücken</string>
     <string name="lockscreen_shorcuts_longpress_summary">Öffnen Sie benutzerdefinierte Sperre Bildschirm Verknüpfungen bei lange drücken</string>
 
-    <!-- Hardware tunables - Key backlight -->
-    <!-- will be here for a temporary time until cm merge this feature back -->
-    <string name="button_backlight_title">Hintergrundbeleuchtung</string>
-    <string name="button_backlight_enabled">Beleuchtete Tasten</string>
-    <string name="keyboard_backlight_enabled">Beleuchtete Tastatur</string>
-    <string name="button_backlight_seekbar_title">Taste Helligkeit</string>
-    <string name="keyboard_backlight_seekbar_title">Tastatur Helligkeit</string>
-    <string name="backlight_timeout_title">Beleuchtungsdauer</string>
-    <string name="backlight_timeout_unlimited">Nicht schalten</string>
-    <plurals name="backlight_timeout_time">
-    <item quantity="one"><xliff:g id="seconds">%d</xliff:g> Sekunde</item>
-    <item quantity="other"><xliff:g id="seconds">%d</xliff:g> Sekunden</item>
-    </plurals>
-    <string name="backlight_summary_disabled">Deaktivieren</string>
-    <string name="backlight_summary_enabled_with_timeout">Aktivieren für <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Aktivieren</string>
-
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Batterieanzeige Stil</string>
     <string name="status_bar_battery_style_icon_portrait">Icon Portrait</string>
@@ -574,4 +558,33 @@
     <string name="toast_Translucent_animation">Lichtdurchlässig</string>
     <string name="toast_SlideLeftRight_animation">Gleiten von Links nach Rechts</string>
     <string name="toast_SlideRightLeft_animation">Gleiten von Rechts nach Links</string>
+
+    <!-- Navigation Bar on the left -->
+    <string name="navigation_bar_left_title">Linkshänder-Modus</string>
+    <string name="navigation_bar_left_summary">Legen Sie die Navigationsleiste auf der linken Seite des Bildschirms im Querformat</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Zeige CPU Info</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Zeigt aktuelle CPU-Info</string>
+
+    <!-- AOKP custom system animations -->  
+    <string name="aokp_animation_title">System Animation</string>
+    <string name="aokp_animation_summary">AOKP benutzerdefinierte Animation</string>
+    <string name="animation_exit_only_title">eingeben nur Animation</string>
+    <string name="animation_reverse_exit_title">Reverse exit animation</string>
+    <string name="activity_open_title">Aktivität Animation öffnen</string>
+    <string name="activity_close_title">Aktivität Animation schließen</string>
+    <string name="task_open_title">Aufgabe Animation öffnen</string>
+    <string name="task_close_title">Aufgabe Animation schließen</string>
+    <string name="task_move_to_front_title">Verschieben nach vorne Animation</string>
+    <string name="task_move_to_back_title">Verschieben nach hinten Animation</string>
+    <string name="wallpaper_open_title">Wallpaper öffnen Animation</string>
+    <string name="wallpaper_close_title">Wallpaper schließen Animation</string>
+    <string name="wallpaper_intra_open_title">Wallpaper intra öffen animation</string>
+    <string name="wallpaper_intra_close_title">Wallpaper intra schließen animation</string>
+    <string name="task_open_behind_title">Aufgabe hinter Animation öffnen</string>
+    <string name="animation_duration_title">Animationdauer</string>
+    <string name="animation_duration_default">Standard</string>
+
 </resources>
